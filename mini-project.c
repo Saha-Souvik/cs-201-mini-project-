@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<time.h>
-
 
 #define MAX 4500
 
@@ -52,8 +50,7 @@ int main(){
     int N;
     printf("Enter the index of the fibonacci number to be found :\n");
     scanf("%d",&N);
-    //  clock_t t;
-    //  t = clock();
+;
     for(int i=0;i<MAX;i++){
         temp_1[i]='0';
         temp_2[i]='0';
@@ -63,9 +60,7 @@ int main(){
     printf("The %dth fibonacci number is : \n",N);
     fibonacci(N);
     printf("\n");
-    // t = clock() - t;
-    // double time_taken = ((double)t)/CLOCKS_PER_SEC;
-    // printf("Took %f seconds to execute \n", time_taken);
+
 
 return 0;
 }
